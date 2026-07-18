@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stack Cost Calculator — looksmaxxing.guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <h1>Stack Cost Calculator</h1>
+      <p class="sub">Add what you're actually taking and see your real monthly and yearly spend. No efficacy claims here, just the math your Fitness guide keeps telling readers to do before buying anything new.</p>
+    </header>
+
+    <div id="rows"></div>
+
+    <button id="addRow" class="secondary">+ Add supplement</button>
+    <button id="calcBtn">Calculate my stack</button>
+
+    <section id="output" class="output hidden">
+      <div class="card">
+        <h2>Monthly total</h2>
+        <p id="monthlyTotal" class="big"></p>
+      </div>
+      <div class="card">
+        <h2>Yearly total</h2>
+        <p id="yearlyTotal" class="big"></p>
+      </div>
+      <div class="card">
+        <h2>Where you land</h2>
+        <p id="benchmark"></p>
+      </div>
+    </section>
+
+    <footer>
+      <p>Built for looksmaxxing.guide readers comparing a bloated stack against a realistic $40/month budget stack. Pure cost math, client-side, no data sent anywhere.</p>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+  </html>
